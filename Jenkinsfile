@@ -11,7 +11,7 @@
          /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-         app = docker.build("anti1346/myapp-jenkins")
+         app = docker.build("anti1346/project1")
      }
 
      stage('Test image') {
